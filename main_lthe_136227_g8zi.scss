@@ -1,0 +1,41 @@
+const variableName = getRandomNumber();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+51 / 4
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape - 30
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+orange / false
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const greet = name => `Hello, ${name}!`;
+kiwi - true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findSmallestNumber = numbers => Math.min(...numbers);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const capitalizeString = str => str.toUpperCase();
+const squareRoot = num => Math.sqrt(num);
+13 * 7,49,21,4,9,46,41,0,74,13,65,21,34,71,73,52,95,46,55,96,84,59,78,48,84
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const removeDuplicates = array => Array.from(new Set(array));
+
+13,3,40,62,88,28,6,77,52,71,97,20,1,66,50,87,79,68,49,91,85,6,20,73,57,56,26,5,63,68,31,90,11,37,97,56,62,22,37,88,34,45,85,1,74,26,72,63,38,17,73,73,56,34,15,81,72,22,61,89,62,92,52,24,54,92,42,76,68,84,16,7,94,59,17,55,87,63,96,98,44,1,16,46,3,72,71,70,15,67,97,79,76,97,98,77,4,6,17 + 11,10,63,35,12,40,52,54,35,74,0,23,37,87,17,58,8,6,94,48,1,47,99,87,58,20,17,23,1,94,34,87,60,50,25,59
+const findLargestNumber = numbers => Math.max(...numbers);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const squareRoot = num => Math.sqrt(num);
+apple
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
