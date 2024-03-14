@@ -1,0 +1,43 @@
+grape + 52
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+true + false
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+false * 12
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+console.log(getRandomString());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+banana - false
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getRandomElement = array => array[getRandomIndex(array)];
+banana
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+15 / 68
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+orange
+
+
+const reverseString = str => str.split("").reverse().join("");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+61,95,45,7,45,11,9,36,9 / orange
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
