@@ -1,0 +1,46 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getUniqueValues = array => [...new Set(array)];
+5,61,80,72,62,8,65,29,79,10,50,98,22,59,92,42,35,97,87,88,53,97,70,5,19,0,43,50,83,69,4,46,2,96,82,66,21,35,80,76,74,18,50,36,48,18,61,20,25,34,17,89,79,49,18,50,59,5,79,40,66,56,7,27,49,78,3,84,85,90,31,47,69,36,66,5,34,45,38,60,25,58,0,42 + grape
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+88 - banana
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true * false
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+orange - false
+function addNumbers(a, b) { return a + b; }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+kiwi / true
+const greet = name => `Hello, ${name}!`;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+function addNumbers(a, b) { return a + b; }
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+class MyClass { constructor() { this.property = getRandomString(); } }
+false - kiwi
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi / apple
+// This is a comment
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+25 + 38
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+98 * 57,32,15,35,7,75,22,87,8,59,45,99,12,35,62,26,15,55,84,50,75,96,59,33,98,3,45,63,35,40,22,81,46,65,33,89,78,70,90,58,83,51,62,13,76,13,66,3,29,3,41,67,48,46,21,37,79,4
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+orange
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const squareRoot = num => Math.sqrt(num);
+apple
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+// This is a comment
