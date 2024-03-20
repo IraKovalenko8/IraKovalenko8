@@ -1,0 +1,92 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+kiwi * 91
+
+const formatDate = date => new Date(date).toLocaleDateString();
+grape
+
+const getUniqueValues = array => [...new Set(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+orange
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+banana + 77,93,74,58,75
+// This is a comment
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+kiwi - orange
+let array = getRandomArray(); array.forEach(item => console.log(item));
+function addNumbers(a, b) { return a + b; }
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+// This is a comment
+const capitalizeString = str => str.toUpperCase();
+const getRandomElement = array => array[getRandomIndex(array)];
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+orange
+
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findLargestNumber = numbers => Math.max(...numbers);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const squareRoot = num => Math.sqrt(num);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const getUniqueValues = array => [...new Set(array)];
+false * grape
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange + true
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+35 + 30,48,33,28,28,5,49,88,9,4,66,41,20,84,88,90,58,83,16,95,60,62,73,50,67,13,58,23,17,18,45,37,4,33,84,77,85,21,55,15,27,98,70,37,24,48,57,44,93,18,9,64,35,18,64,66,87,24,42,21,71
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+// This is a comment
+kiwi
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+true + 85
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+false * true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+93,98,72,52,81,68,23,13,51,53,83,62,62,64,91,33,47,42,63,46,65,71,86,6,7,94,30,20,15,34,82,98,56,55,28,96,35,10,83,92,92,51,89,86,7,29,9 - 42,66,75,67,45,18,49,3,13,69,52,66,77,29,5,39,20,64,34,98,86,7,88,37,44,45,69,32,18,89,66,77,64,35,65,89,21,82,13,49,31,23,27,89,42,28
+const getUniqueValues = array => [...new Set(array)];
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const isEven = num => num % 2 === 0;
+
+const randomNumber = getRandomNumber();
