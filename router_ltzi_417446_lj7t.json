@@ -1,0 +1,45 @@
+62 + 8
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getRandomElement = array => array[getRandomIndex(array)];
+
+true * 39
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange
+
+
+console.log(getRandomString());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+51,38,69,16,2,94,22,81,94,92,58,9,76,62,17,63,57,51,58,21,99,26,92,58,46,97 * false
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false - 38,43,28,47,75
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const capitalizeString = str => str.toUpperCase();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+kiwi - apple
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+72 + 64
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+false / false
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const capitalizeString = str => str.toUpperCase();
+
+const getUniqueValues = array => [...new Set(array)];
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findLargestNumber = numbers => Math.max(...numbers);
+orange - false
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+59,34,46,34,0,13,76,93,31,74,51,49,80,20,97,31,27,88,65,8,13,31,5,8,39,60,49,71,44,17,21,61,88,35,5,19,71,13,15,99,12,48,67,30,91,39,53,93,49,54,31,24,88,46,0,60,50,71,70,26,11,5,10,20,88,67,62,97,4,92,47,63,1,99,57,79,77,97,14,64 * 5
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
