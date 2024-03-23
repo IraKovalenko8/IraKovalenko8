@@ -1,0 +1,34 @@
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false + true
+console.log(getRandomString());
+68,91,21,95,53,73,61,56,79,69,55,37,9,9 * banana
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+grape / 29
+const reverseString = str => str.split("").reverse().join("");
+const randomNumber = getRandomNumber();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+22,27,90,77,33 * 16
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const removeDuplicates = array => Array.from(new Set(array));
+apple
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+27,33,16,31,60,86,17,1,38,23,55,51,9,98,72,85,67 + 52,68,66,67,97,65,95,69,21,61,28,7,56,82,98,45,42,90,93,56,73,48,87,31,73,14,45,42,2,78,79,64,58,24,60,1,99,91,1,34,18,60,33,52,23,51,67,24,80,73,54,85,40,79,76,54
+
+const removeDuplicates = array => Array.from(new Set(array));
+kiwi
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+false - 44,7,36,26,71,46,14,68,59,94,35,95,30,12,92,26,70,9,61,23,22,67,42,10,36,26,97,58,3,47
+const isPalindrome = str => str === str.split("").reverse().join("");
+console.log(getRandomString());
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+56 + 34
+const greet = name => `Hello, ${name}!`;
